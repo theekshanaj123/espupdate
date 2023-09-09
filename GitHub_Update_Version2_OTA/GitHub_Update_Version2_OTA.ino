@@ -4,8 +4,8 @@
 #include <WiFiClientSecure.h>
 #include "cert.h"
 
-const char * ssid = "Al-Imaad";
-const char * wifiPassword = "7760@_Ahmad";
+const char * ssid = "FAB LAB MAKANDURA";
+const char * wifiPassword = "SriProduct2020";
 int status = WL_IDLE_STATUS;
 int incomingByte;
 
@@ -13,8 +13,8 @@ String FirmwareVer = {
     "2.0"
 };
 
-#define URL_fw_Version "https://raw.githubusercontent.com/AhmadMahi/QuibbleUpdate/master/Quibbleupdate/bin-version.txt"
-#define URL_fw_Bin "https://raw.githubusercontent.com/AhmadMahi/QuibbleUpdate/master/Quibbleupdate/fw.bin"
+#define URL_fw_Version "https://raw.github.com/theekshanaj123/espupdate/blob/main/GitHub_Update_Version2_OTA/vr.txt"
+#define URL_fw_Bin "https://raw.github.com/theekshanaj123/espupdate/blob/main/GitHub_Update_Version2_OTA/fw.bin"
 
 void setup() {
 
